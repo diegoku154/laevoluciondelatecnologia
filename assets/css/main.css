@@ -2048,6 +2048,7 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+/* 🔥 FIX DEFINITIVO PARA MÓVIL */
 @media screen and (max-width: 480px) {
 
     #main .thumb {
