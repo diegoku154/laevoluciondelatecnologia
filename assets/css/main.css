@@ -2037,7 +2037,19 @@ input, select, textarea {
 				}
 
 		}
+/* 🔥 FIX PARA MÓVIL - NO BORRAR */
+@media screen and (max-width: 480px) {
 
+    #main .thumb > .image {
+        position: relative !important;
+        height: auto !important;
+    }
+
+    #main .thumb {
+        height: auto !important;
+    }
+
+}
 /* Footer */
 
 	#footer .copyright {
