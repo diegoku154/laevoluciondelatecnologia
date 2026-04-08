@@ -2037,19 +2037,7 @@ input, select, textarea {
 				}
 
 		}
-/* 🔥 FIX PARA MÓVIL - NO BORRAR */
-@media screen and (max-width: 480px) {
 
-    #main .thumb > .image {
-        position: relative !important;
-        height: auto !important;
-    }
-
-    #main .thumb {
-        height: auto !important;
-    }
-
-}
 /* Footer */
 
 	#footer .copyright {
@@ -2060,3 +2048,30 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+@media screen and (max-width: 480px) {
+
+    #main .thumb {
+        height: auto !important;
+        overflow: visible !important;
+    }
+
+    #main .thumb > .image {
+        position: relative !important;
+        height: auto !important;
+    }
+
+    #main .thumb > p {
+        display: block !important;
+        position: relative;
+        padding: 10px;
+        z-index: 2;
+    }
+
+    #main .thumb > h2 {
+        position: relative !important;
+        bottom: auto !important;
+        left: auto !important;
+        padding: 10px;
+    }
+
+}
